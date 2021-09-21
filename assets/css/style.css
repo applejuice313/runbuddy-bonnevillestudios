@@ -41,7 +41,7 @@ header nav ul li a {
 
 body {
   font-family: OCR A Std, monospace;
-  color: #c72a4c;
+  color: #fce138;
   background-color: rgb(255, 255, 255);
 }
 
@@ -67,3 +67,10 @@ footer div {
 footer a {
   color: #024e76;
 }
+
+/* Hero Style Start */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("https://2qibqm39xjt6q46gf1rwo2g1-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/20783593_web1_M2-Analog-Recording-edh-200305.jpg");
+  height: 600px;
+}
+/* Hero Style End */
