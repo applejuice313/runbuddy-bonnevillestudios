@@ -24,7 +24,7 @@
                     <a href="#what-you-do">What You Do</a>
                     </li>
                     <li>
-                    <a href="#your-teachers">Your Teachers</a>
+                    <a href="#your-coaches">Your Coaches</a>
                     </li>
                     <li>
                     <a href="#reach-out">Reach Out</a>
@@ -32,11 +32,43 @@
                 </ul>
             </nav>
         </header>
-        
-    <body>
+    
+    <body>    
+        <!-- sign up form -->
         <!-- hero/jumbotron -->
         <section>
-        </section>
+            <div>
+              <h3>Get Started Today</h3>
+              <p>Fill out this form and one of our coaches will schedule a consult</p>
+            <!-- Add form element -->
+            <form>
+                 <label for="name">Enter full name:</label>
+                 <input type="text" placeholder="Your Name" name="name" id="name" />
+                 <label for="email">Enter email address:</label>
+                 <input type="text" placeholder="Email Address" name="email" id="email" />
+                 <label for="phone">Enter a telephone number:</label>
+                 <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+                 
+                 <p>
+                    Have you worked out with a music production coach before?
+                    <input type="radio" name="coach-confirm" id="coach-yes" />
+                    <label for="coach-yes">Yes</label>
+                    <input type="radio" name="coach-confirm" id="coach-no" />
+                    <label for="coach-no">No</label>
+                  </p>
+                  <p>
+                    <label for="checkbox" >
+                      I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                  </p>
+                  <button type="submit">
+                    Get creating!
+                  </button>
+            </form>
+            </div>
+    </section>
+    <!-- end hero -->
         
         <!-- "what we do" section -->
         <section>
@@ -48,9 +80,9 @@
             <h2>What You Do</h2>
         </section>
         
-        <!-- "meet the trainers" section -->
+        <!-- "meet the coachs" section -->
         <section>
-            <h2>Meet The Teachers</h2>
+            <h2>Meet The Producers</h2>
         </section>
         
         <!-- "reach out" section -->
@@ -63,5 +95,10 @@
 
         <footer>
             <h2>Made with love by Bonneville Studios</h2>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc.
+              </div>
+              
         </footer>
 </html>
