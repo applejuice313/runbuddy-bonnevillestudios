@@ -68,9 +68,29 @@ footer a {
   color: #024e76;
 }
 
-/* Hero Style Start */
+section {
+  padding: 60px;
+}
+
+/* Hero Image Style Start */
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("https://2qibqm39xjt6q46gf1rwo2g1-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/20783593_web1_M2-Analog-Recording-edh-200305.jpg");
   height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-/* Hero Style End */
+
+/* Hero Image Style End */
+/* Hero Form Style Start */
+
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
