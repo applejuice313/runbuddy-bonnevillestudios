@@ -127,7 +127,6 @@ section {
 
 .section-title {
   font-size: 55px;
-  color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   display: inline-block;
@@ -148,6 +147,10 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+}
+
+#what-we-do {
+  color: #024e76;
 }
 
 /* what you do */
@@ -175,6 +178,14 @@ section {
   font-size: 23px;
 }
 
+#what-you-do {
+  color: #024e76;  
+}
+
+/* what you do style end */
+
+/* producer bio style start */
+
 .producers {
   text-align: center;
 }
@@ -196,6 +207,10 @@ section {
   padding: 35px;
   float: left;
   width: 65%;
+}
+
+.producers h2 {
+  color: #024e76;
 }
 
 .producer-bio h3 {
@@ -220,4 +235,25 @@ section {
 
 .text-right {
   text-align: right;
+}
+
+/* REACH OUT STYLES START */
+.contact {
+  text-align: center;
+  color: #fce138;
+  background: #024e76;
+}
+
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
 }
