@@ -88,7 +88,17 @@ section {
   background-size: cover;
   background-position: center;
   position: relative;
+  margin: 20px;
+  background-color: white;
+  font-size: 20px;
+  color: blue;
 }            
+
+/* secondary page hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
 
 .hero-form {
   border: 3px solid #024e76;
