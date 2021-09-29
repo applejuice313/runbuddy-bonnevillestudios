@@ -8,7 +8,7 @@ A website that offers music production services.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://applejuice313.github.io/surfsidestudios/
 
 ## Contribution
 Made with ❤️ by Malek Abouljoud
